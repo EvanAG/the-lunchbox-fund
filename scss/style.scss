@@ -1,4 +1,8 @@
+@import 'base';
+@import 'mixins';
 
+// Component rules
+@import 'components/main';
 a div {
 /* for troubleshooting 
   border-style: dotted;
