@@ -1,0 +1,110 @@
+/* line 2, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+a div {
+  /* for troubleshooting 
+  border-style: dotted;
+  border-width: 1px; */ }
+
+/* line 8, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.footercontainer {
+  width: 100%;
+  background: #000;
+  box-shadow: -25px 0 0 #353c45, 50px 0 0 #353c45;
+  overflow: hidden; }
+
+/* line 15, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.thefooter {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 950px;
+  height: 100%;
+  padding-bottom: 25px;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: Lato, Verdana, sans-serif;
+  font-size: 11.5px;
+  color: #d2d1d2;
+  line-height: 22px; }
+
+/* line 32, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.thefooter a {
+  text-decoration: none;
+  color: #d2d1d2;
+  transition: 100ms color;
+  transition-duration: 100ms; }
+
+/* line 39, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.thefooter a:hover {
+  color: #ff651b;
+  transition: 100ms color;
+  transition-duration: 100ms; }
+
+/* line 45, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.footercontent {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px; }
+
+/* line 53, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.footertitle {
+  font-size: 15px;
+  text-transform: uppercase; }
+
+/* line 58, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.nav-column {
+  width: 105px; }
+
+/* line 62, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+a.button {
+  margin-bottom: 10px;
+  background-color: #ff661c;
+  font-size: 1.1em;
+  width: auto;
+  transition: 0.25s;
+  -moz-transition: 0.25s;
+  -webkit-transition: 0.25s;
+  color: #fff; }
+
+/* line 73, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+a.button:hover {
+  background-color: #ff8147;
+  color: #fff;
+  transition: 100ms;
+  -moz-transition: 100ms;
+  -webkit-transition: 100ms; }
+
+/* line 81, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.button {
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer; }
+
+/* line 92, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.cta {
+  padding: 3px 10px 3px 10px;
+  float: left; }
+
+/* line 97, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.arrow {
+  background-color: #667;
+  padding: 3px 6px 3px 6px;
+  float: left; }
+
+/* line 103, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.contact-column {
+  width: 125px; }
+
+/* line 107, /Users/evangrice/Documents/Graphic Design Semester 6/Interactive Design/the-lunchbox-fund/scss/style.scss */
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px; }
