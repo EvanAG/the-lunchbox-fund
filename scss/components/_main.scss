@@ -113,7 +113,7 @@ a div {
   
 .footercontainer{
   width: 100%;
-  background: #000;
+  background: $dark-grey;
   box-shadow: -25px 0 0 #353c45, 50px 0 0 #353c45;
   overflow: hidden;
 }
@@ -167,6 +167,7 @@ a div {
 
 a.button {
   margin-bottom: 10px;
+  background-color: #ff661c;
   font-size: 1.1em;
   width: auto;
   transition: .25s;
