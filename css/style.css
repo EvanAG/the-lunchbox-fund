@@ -58,16 +58,15 @@ header {
   width: 25%;
   z-index: -1;
   top: -400px;
-  padding-top: 0.3em;
   margin-left: -19.8px;
-  transition: 0.3s ease-in-out; }
+  transition: 0.35s ease-in-out; }
 
-/* line 69, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 68, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
 .mm-item:hover > .dd-menu, .mm-item:focus > .dd-menu {
   top: 60px;
   border-radius: 6px; }
 
-/* line 76, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 75, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
 .dd-item {
   display: block;
   background: #ff8000;
@@ -76,9 +75,9 @@ header {
   width: 100%;
   color: #fff; }
 
-/* line 85, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 84, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
 .logo {
-  width: 55px;
+  width: 60px;
   height: 70px;
   margin-left: 2em;
   margin-top: -0.2em;
@@ -86,20 +85,22 @@ header {
   vertical-align: middle;
   z-index: 9; }
 
-/* line 95, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 94, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
 .donate {
   color: #ff8000;
   text-align: center;
   height: 35px;
-  width: 50px;
+  width: 40px;
+  line-height: 40px;
+  margin: auto;
+  margin-top: 0.9em;
   margin-left: 2em;
-  margin-top: 1em;
   position: absolute;
   background-color: #fff;
   border: 1px solid #ff8000;
   border-radius: 6px; }
 
-/* line 110, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 111, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
 .donate:hover {
   background: #ff8000;
   color: #fff; }
