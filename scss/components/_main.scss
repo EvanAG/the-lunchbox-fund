@@ -32,7 +32,7 @@ header {
   padding: 0 $item-padding;
   cursor: pointer;
   text-decoration: none;   
-  font-size: 1.22rem;
+  font-size: 0.9rem;
   color: $dd-text-hover-color;
   transition: .3s;
 }
@@ -45,8 +45,8 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: $mm-item-text-color;
-  font-weight: 100;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 [class*=item]:hover {
@@ -82,23 +82,33 @@ header {
 }
 
 .logo {
-  width: 50px;
-  height: 60px;
+  width: 55px;
+  height: 70px;
   margin-left: 2em;
+  margin-top: -0.2em;
   position: absolute;
   vertical-align: middle;
   z-index: 9;
 }
 
 .donate {
-  height: 40px;
+  color: hsl(30, 100%, 50%);
+  text-align: center; 
+  vertical-align: middle;
+  height: 35px;
   width: 50px;
-  margin-left: 2em;
+  line-height: 100px;
+  margin: auto;
   position: absolute;
-  background-color: hsl(30, 100%, 50%);
+  background-color: #fff;
+  border: 1px solid hsl(30, 100%, 50%);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+}
+
+.donate:hover {
+  background: hsl(30, 100%, 50%);
   color: #fff;
 }
 
@@ -106,6 +116,8 @@ header {
 /* Footer ----------------------------------- */
   
 footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -118,5 +130,20 @@ footer {
 }
 
 .menu-buttons {
-  border: 1px
+  border: 1px solid white;
+  padding: .25em 1em;
+  text-align: center;
 }
+
+footer a{
+  text-decoration: none;
+  color: #d2d1d2;
+  transition: 100ms color;
+  transition-duration: 100ms; 
+  }
+
+footer a:hover{
+  color:#ff651b;  
+  transition: 100ms color;
+  transition-duration: 100ms; 
+  }
