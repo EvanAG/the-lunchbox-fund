@@ -51,7 +51,7 @@ header {
 
 [class*=item]:hover {
   background: $item-hover;
-  color: $dd-text-hover-color
+  color: $dd-text-hover-color;
 }
 
 .dd-menu {
@@ -117,33 +117,83 @@ header {
   
 footer {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   position: absolute;
   bottom: 0;
   width: 100%;
   background: $dark-grey;
-  padding: 2rem;
+  padding: 1rem;
   color: white;
   .quicklinks {
     list-style-type: none; 
   }
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .menu-buttons {
+  border: 1px solid white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 1em;
+  padding: .25em 1em;
+  text-align: center;
+  color: #ccc;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-buttons:hover {
   border: 1px solid white;
   padding: .25em 1em;
   text-align: center;
+  color: #fff;
+  text-transform: uppercase;
 }
 
-footer a{
-  text-decoration: none;
-  color: #d2d1d2;
-  transition: 100ms color;
-  transition-duration: 100ms; 
-  }
 
-footer a:hover{
-  color:#ff651b;  
-  transition: 100ms color;
-  transition-duration: 100ms; 
-  }
+.bottom-nav-title{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.button {
+  border: 1px solid white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: .25em 1em;
+  text-align: center;
+  color: #ccc;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  border: 1px solid white;
+  padding: .25em 1em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition-duration: 100ms;
+}
+
+.bucket {
+  padding: 2em;
+}
+
+.bucket li {
+  padding-top: 1em;
+}
+
+.light {
+  font-weight: 300;
+}
