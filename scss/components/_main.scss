@@ -112,3 +112,12 @@ header {
   background: hsl(30, 100%, 50%);
   color: #fff;
 }
+
+.landing {
+  background: transparent url("../images/african-baby.jpg") no-repeat center top;
+  transform: translate3d(0,0,0);
+  background-size: cover;
+  position: relative;
+  padding: 21em 0;
+  text-align: center;
+}

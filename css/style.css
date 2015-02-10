@@ -104,3 +104,13 @@ header {
 .donate:hover {
   background: #ff8000;
   color: #fff; }
+
+/* line 116, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+.landing {
+  background: transparent url("../images/african-baby.jpg") no-repeat center top;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  background-size: cover;
+  position: relative;
+  padding: 21em 0;
+  text-align: center; }
