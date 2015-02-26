@@ -1,9 +1,6 @@
 footer {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
   width: 100%;
   background: $dark-grey;
-  padding: 1rem;
   color: white;
   .quicklinks {
     list-style-type: none; 
@@ -11,36 +8,10 @@ footer {
 }
 
 .menu-buttons {
-  border: 1px solid white;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  width: 1em;
-  padding: .25em 1em;
-  text-align: center;
-  color: #ccc;
-  text-transform: uppercase;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.menu-buttons:hover {
-  border: 1px solid white;
-  padding: .25em 1em;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
+    @include button($white, 10px)
 }
 
 .bottom-nav-title{
   text-transform: uppercase;
   font-size: 16px;
-}
-
-.bucket {
-  padding: 2em;
-}
-
-.bucket li {
-  padding-top: 1em;
 }

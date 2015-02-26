@@ -1,5 +1,11 @@
 // Main Content Styles
 
+.flex-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .button {
     @include button($white, 0 auto);
     max-width: 10rem;
