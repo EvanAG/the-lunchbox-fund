@@ -990,8 +990,8 @@ footer {
     padding: 8rem; }
 
   /* line 48, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
-  .banner-mini {
-    padding: 2rem 5rem; }
+  .banner-mini, .link-banner-mini {
+    padding: 3rem 1rem; }
  }
 
 /* line 53, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
