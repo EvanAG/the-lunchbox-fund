@@ -1,3 +1,7 @@
+html, body {@include zero}
+
+*, *:after, *:before {@include zero}
+
 .grid {
   letter-spacing: -0.31em;
   text-rendering: optimizespeed;

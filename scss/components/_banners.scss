@@ -1,0 +1,33 @@
+.banner {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    padding: 8rem 1rem;
+    display: block;
+}
+
+.banner-mini {
+    padding: 2rem 1rem;
+}
+
+@media only screen and (min-width: 38em) {
+    .banner {
+        padding: 8rem;
+    }
+    
+    .banner-mini {
+        padding: 2rem 5rem;
+    }
+}
+
+.class-1 {
+    @include bgcover(url(http://placehold.it/1000x600));
+}
+
+.class-2 {
+    @include bgcover(url(http://placehold.it/1000x200/f0f0f0));
+}
+
+.class-3 {
+    @include bgcover(url(http://placehold.it/1000x800/4cc691/fff));
+}
