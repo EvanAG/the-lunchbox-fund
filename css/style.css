@@ -524,6 +524,29 @@
       -ms-flex-item-align: center;
           align-self: center; }
 
+@media only screen and (min-width: 38em) {
+  /* line 533, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  .gutter-1 {
+    padding-right: 1rem; }
+
+  /* line 537, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  .gutter-2 {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; }
+
+  /* line 542, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  .gutter-3 {
+    padding-left: 1rem; }
+ }
+
+/* line 547, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+.push-top {
+  margin-top: 2rem; }
+
+/* line 551, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+.push-top-2 {
+  margin-top: 4rem; }
+
 /* line 3, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
 * {
   margin: 0;

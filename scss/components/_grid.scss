@@ -527,3 +527,27 @@
   -webkit-align-self: center;
   align-self: center;
 }
+
+@media only screen and (min-width: 38em) {
+ 
+  .gutter-1 {
+    padding-right: 1rem;
+  }
+    
+  .gutter-2 {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+    
+  .gutter-3 {
+    padding-left: 1rem;
+  }  
+}
+
+.push-top {
+  margin-top: 2rem;
+}
+
+.push-top-2 {
+  margin-top: 4rem;
+}
