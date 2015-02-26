@@ -36,6 +36,8 @@
     text-decoration: none;
     text-align: center;
     border: solid 2px $color;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
     padding: 10px;
     min-width: 9rem;
     color: $color;

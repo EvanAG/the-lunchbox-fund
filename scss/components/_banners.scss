@@ -30,3 +30,11 @@
 .class-3 {
     @include bgcover(url(http://placehold.it/1000x800/4cc691/fff));
 }
+
+
+.african-child {
+    @include bgcover(url(../../images/african-baby.jpg));
+    h1 {
+        color: $white;
+    }
+}

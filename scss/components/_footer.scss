@@ -9,7 +9,7 @@ footer {
 }
 
 .menu-buttons {
-    @include button($white, 10px)
+    @include button($white, 10px);
 }
 
 .bottom-nav-title{
