@@ -1,40 +1,63 @@
+.dd-menu {
+    display: none;
+}
+
 header {
     width: 100%;
     background-color: $white;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 55px;
 }
 
 .logo-link {
-    width: 20%;
-    background-image: url(../../assets/lunchbox-logo-symbol.svg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 72px;
+    display: block;
+    height: 55px;
+    a {
+        @include hide-text;
+        height: 55px;
+        width: 50%;
+        background-image: url(../../assets/lunchbox-logo-symbol.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+    }
 }
- 
+
+.donate {
+    position: absolute;
+    right: 0;
+    display: block;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    a {
+        @include button($highlight, 5px auto 0);
+    }
+}
+
 .mm-menu {
-  position: relative;
-  z-index: 99;
-  margin: 0 auto;
-  width: 60%;
-  text-align: center;
-  font-size: 0;
-}
- 
-[class*=item] {
-  cursor: pointer;
-  transition: .3s;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 .mm-item {
-    display: inline-block;
+    @include zero;
+    float: left;
     background: $highlight;
     width: 33.33%;
-    line-height: 4rem;
+    line-height: 2rem;
+    font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-align: center;
     color: $white;
-    font-size: 0.9rem;
     position: relative;
 }
 
@@ -42,23 +65,87 @@ header {
   background: $highlight-dark;
 }
 
-.dd-menu {
-    position: absolute;
-    left:0;
-    right: 0;
-    z-index: -1;
-    top: -13rem;
-    transition: .35s ease-in-out;
+[class*=item] {
+  cursor: pointer;
+  transition: .3s;
 }
 
-.mm-item:hover > .dd-menu,
-.mm-item:focus > .dd-menu {
-  top: 4rem;
+@media only screen and (min-width: 25em) {
+    .mm-item {
+        font-size: 14px;
+        line-height: 3rem;
+    }
 }
 
-.dd-item {
-    display: block;
-    background: orange;
-    line-height: 3;
-    color: white;
+@media only screen and (min-width: 60em) {
+
+    header {
+        height: auto;
+    }
+    
+    .logo-link {
+        width: 20%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        a {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            @include hide-text;
+            width: 100%;
+            background-image: url(../../assets/lunchbox-logo-symbol.svg);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: contain;
+        }
+    }
+    
+    .mm-menu {
+        position: relative;
+        top: 0;
+        z-index: 99;
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+        font-size: 0;
+    }
+
+    .mm-item {
+        display: inline-block;
+        line-height: 4rem;
+        font-size: 0.9rem;
+    }
+
+    .dd-menu {
+        display: block;
+        position: absolute;
+        left:0;
+        right: 0;
+        z-index: -1;
+        top: -13rem;
+        transition: .35s ease-in-out;
+    }
+
+    .mm-item:hover > .dd-menu,
+    .mm-item:focus > .dd-menu {
+      top: 4rem;
+    }
+
+    .dd-item {
+        display: block;
+        background: orange;
+        line-height: 3;
+        color: white;
+    }
+
+    .donate {
+        padding: 10px 0;
+        width: 20%;
+        a {
+            @include button($highlight, 0 auto);
+            width: 90%;
+        }
+    }
+    
 }

@@ -1,10 +1,11 @@
 footer {
-  width: 100%;
-  background: $dark-grey;
-  color: white;
-  .quicklinks {
+    width: 100%;
+    background: $dark-grey;
+    color: white;
+    padding: 4rem;
+    .quicklinks {
     list-style-type: none; 
-  }
+    }
 }
 
 .menu-buttons {
