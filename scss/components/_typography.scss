@@ -49,3 +49,7 @@ a {
 .light {
   font-weight: 300;
 }
+
+.inline-link {
+    @include linkreset($highlight, #980d43);
+}

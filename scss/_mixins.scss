@@ -1,7 +1,14 @@
-@mixin linkreset($color) {
+@mixin linkreset($color, $hovercolor) {
     text-decoration: none; 
     color:$color; 
-    border-bottom: 1px solid $color;}
+    border-bottom: 1px solid $color;
+    transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    &:hover {
+        color: $hovercolor;
+        border-bottom: 1px solid $hovercolor;
+    }
+}
 
 @mixin bgcover($url) {
     background-image: $url;

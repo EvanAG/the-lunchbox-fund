@@ -3,9 +3,18 @@ footer {
     background: $dark-grey;
     color: white;
     padding: 4rem;
+    text-align: center;
     .quicklinks {
-    list-style-type: none; 
+        list-style-type: none; 
     }
+}
+
+@media only screen and (min-width: 38em) {
+    
+    footer {
+        text-align: left;
+    }
+    
 }
 
 .menu-buttons {

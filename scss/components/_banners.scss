@@ -3,10 +3,41 @@
     text-align: center;
     padding: 8rem 1rem;
     display: block;
+    h1, p {
+        @include zero;
+    }
 }
 
 .banner-mini {
     padding: 2rem 1rem;
+    position: relative;
+    p {
+        @include zero;
+    }
+}
+
+.link-banner-mini {
+    padding: 2rem 1rem;
+    position: relative;
+    p {
+        @include zero;
+    }
+}
+
+.link-banner-mini:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: red;
+    transition: all 200ms linear;
+}
+
+.link-banner-mini:hover:after {
+    opacity: .75;
 }
 
 @media only screen and (min-width: 38em) {
@@ -24,16 +55,17 @@
 }
 
 .class-2 {
-    @include bgcover(url(http://placehold.it/1000x200/f0f0f0));
+    @include bgcover(url(http://placehold.it/1000x200/f0f0f0/f0f0f0));
 }
 
 .class-3 {
-    @include bgcover(url(http://placehold.it/1000x800/4cc691/fff));
+    @include bgcover(url(http://placehold.it/1000x800/4cc691/4cc691));
 }
 
 
 .african-child {
     @include bgcover(url(../../images/african-baby.jpg));
+    padding: 14rem 0; /* this padding modifies the height of the banner */
     h1 {
         color: $white;
     }
