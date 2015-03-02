@@ -29,7 +29,21 @@ h3, .three {font-size: 2.25em;}
 h4, .four {font-size: 1.5em;}
 
 .p-large {
-    font-size: 1.35em;
+  font-family: 'Museo Slab', serif;
+  font-size: 1.25em;
+  margin-bottom: 0.3rem;
+}
+
+.p-address {
+  margin-top:0;
+  margin-bottom:0;
+  text-align: center;
+}
+
+.caption {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 2rem;
 }
 
 small, .font_small {font-size: 0.667em;}

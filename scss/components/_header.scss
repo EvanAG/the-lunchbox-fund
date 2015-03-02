@@ -50,19 +50,20 @@ header {
 .mm-item {
     @include zero;
     float: left;
-    background: $highlight;
+    background: $white;
     width: 33.33%;
     line-height: 2rem;
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    color: $white;
+    color: $highlight;
     position: relative;
 }
 
 [class*=item]:hover {
-  background: $highlight-dark;
+  background: $highlight;
+  color: $white;
 }
 
 [class*=item] {
