@@ -641,7 +641,7 @@ p {
   margin-bottom: 1.3em; }
 
 /* line 13, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   font-family: 'Museo Slab', serif;
@@ -665,44 +665,54 @@ h4, .four {
   font-size: 1.5em; }
 
 /* line 31, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+h5, .five {
+  font-size: 1em; }
+
+/* line 33, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+.sub-title {
+  margin-top: -0.3em; }
+
+/* line 38, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 .p-large {
   font-family: 'Museo Slab', serif;
   font-size: 1.25em;
   margin-bottom: 0.3rem; }
 
-/* line 37, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 44, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 .p-address {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center; }
 
-/* line 43, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 50, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 .caption {
   text-transform: uppercase;
   font-size: 18px;
   margin-top: 2rem; }
 
-/* line 49, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 56, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 small, .font_small {
   font-size: 0.667em; }
 
-/* line 51, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 58, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 .center-align {
   text-align: center; }
 
-/* line 55, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 62, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 li {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-left: 1.4em;
+  margin: 0.5rem 0; }
 
-/* line 59, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 68, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 a {
   text-decoration: none; }
 
-/* line 63, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 72, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 .light {
   font-weight: 300; }
 
-/* line 67, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 76, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
 .inline-link {
   text-decoration: none;
   color: #ff8000;
