@@ -139,13 +139,17 @@ header {
         line-height: 3;
         color: white;
     }
+    
+    .dd-item:last-child {
+       border-radius: 0px 0px 6px 6px; 
+    }
 
     .donate {
         padding: 10px 0;
         width: 20%;
         a {
             @include button($highlight, 0 auto);
-            width: 90%;
+            width: 50%;
         }
     }
     

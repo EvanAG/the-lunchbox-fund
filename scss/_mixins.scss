@@ -46,7 +46,7 @@
     border-radius: 6px;
     -webkit-border-radius: 6px;
     padding: 10px;
-    min-width: 9rem;
+    min-width: 2rem;
     color: $color;
     margin: $margin;
     background-color: transparent;
@@ -58,5 +58,30 @@
     &:hover {
 	background-color: $color;
 	color: $white;
+    }
+}
+
+@mixin button-reverse($color, $margin, $hover-text) {
+    font-size: 0.95em;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1.5px $color;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 10px;
+    min-width: 2rem;
+    color: $color;
+    margin: $margin;
+    background-color: transparent;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    &:hover {
+	background-color: $color;
+	color: $hover-text;
     }
 }

@@ -30,10 +30,13 @@ h4, .four {font-size: 1.5em;}
 
 h5, .five {font-size: 1em;}
 
-.sub-title {
-    margin-top: -0.3em;
+.sub-title-1 {
+    text-transform: uppercase;
 }
 
+.sub-title-2 {
+    margin-top: -0.3em;
+}
 
 .p-large {
   font-family: 'Museo Slab', serif;
@@ -67,6 +70,7 @@ li {
 
 a {
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .light {
