@@ -88,3 +88,19 @@
         color: $white;
     }
 }
+    
+.sunrise-kenya {
+    @include bgcover(url(../../images/sunrise-kenya.jpg));
+    padding: 38.5rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.children-classroom {
+    @include bgcover(url(../../images/children-classroom.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}

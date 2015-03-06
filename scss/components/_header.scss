@@ -61,7 +61,24 @@ header {
     position: relative;
 }
 
+.mm-link {
+    @include zero;
+    display: block;
+    color: $highlight;
+    height: 100%;
+    width: 100%; 
+}
+
+.mm-link:hover {
+    color: $white;
+}
+
 [class*=item]:hover {
+  background: $highlight;
+  color: $white;
+}
+
+[class*=item]:hover > .mm-link {
   background: $highlight;
   color: $white;
 }

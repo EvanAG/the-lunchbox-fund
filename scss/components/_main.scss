@@ -4,18 +4,23 @@ main {
     padding-top: 6.35rem;
 }
 
+.flex-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-vid {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 38em) {
     
     main {
         padding-top: 55px;   
     }
-
-}
-
-.flex-img {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
 }
 
 .button {
@@ -42,11 +47,20 @@ main {
 }
 
 .figure-img {
-    border-radius: 450px;
     width: 60%;
+    margin-bottom: -2rem;
 }
 
-@media only screen and (min-width: 60em) {
+.figure-img:hover {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.larger-icon {
+    width: 85%;
+}
+
+@media only screen and (max-width: 60em) {
     .content {
         padding: 5rem 20%;
     }
