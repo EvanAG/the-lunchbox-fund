@@ -128,3 +128,60 @@
         color: $white;
     }
 }
+
+.volunteer-field {
+    @include bgcover(url(../../images/volunteer-field.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.directors {
+    @include bgcover(url(../../images/directors.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.city {
+    @include bgcover(url(../../images/city.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.article-vogue {
+    @include bgcover(url(../../images/article-vogue.jpg));
+    padding: 5rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.article-abc {
+    @include bgcover(url(../../images/article-abc.jpg));
+    padding: 5rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.article-ddb {
+    @include bgcover(url(../../images/article-ddb.jpg));
+    padding: 5rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.article-nyc {
+    @include bgcover(url(../../images/article-nyc.jpg));
+    padding: 5rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
