@@ -53,7 +53,7 @@ main {
 
 .figure-img:hover {
     opacity: 0.6;
-    transition: opacity 0.2s ease-in-out;
+    transition: opacity 200ms ease-in-out;
 }
 
 .larger-icon {
@@ -81,6 +81,10 @@ hr {
     height: 1px;
     background-color: $dark;
     margin: 1rem 16rem;
+}
+
+.gradient-icons {
+    transition: 200ms ease-in-out;
 }
 
 

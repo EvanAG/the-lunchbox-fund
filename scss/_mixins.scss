@@ -10,6 +10,18 @@
     }
 }
 
+@mixin link-blog($color, $hovercolor) {
+    text-decoration: none; 
+    color:$color; 
+    transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    &:hover {
+        color: $hovercolor;
+    }
+}
+
+
+
 @mixin bgcover($url) {
     background-image: $url;
     background-size: cover;

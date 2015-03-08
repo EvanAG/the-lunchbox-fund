@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     background: $dark-grey;
-    color: white;
+    color: $light-grey;
     padding: 4rem;
     text-align: center;
     .quicklinks {
@@ -44,5 +44,16 @@ footer {
 .social-list li {
   display: block;
   margin: 0 auto;
+}
+
+
+.copyright {
+    background-color: #000;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: $light-grey;
+    font-size: 0.75em;
 }
 
