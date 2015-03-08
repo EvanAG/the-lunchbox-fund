@@ -12,7 +12,7 @@ main {
 
 .flex-vid {
     display: block;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -20,6 +20,9 @@ main {
     
     main {
         padding-top: 55px;   
+    }
+    .flex-vid {
+        width:60%;
     }
 }
 
@@ -87,6 +90,10 @@ hr {
     transition: 200ms ease-in-out;
 }
 
+.corp-partners {
+    width: 200px;
+    display: inline;
+}
 
 
 

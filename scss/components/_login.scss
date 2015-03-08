@@ -1,13 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
 
-* {
-  box-sizing: border-box;
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
 
-  &:before,
-  &:after {
-    box-sizing: border-box;
-  }
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
 }
+
+/* ---------- GENERAL ---------- */
+
 
 input {
 	border: none;
@@ -36,21 +48,23 @@ input {
 
 .container {
   left: 50%;
-  position: fixed;
+  position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.7);
+  padding: 2em;
 }
 
 /* ---------- LOGIN ---------- */
 
 #login {
-	width: 280px;
+	width: 100%;
 }
 
 #login form span {
-	background-color: #363b41;
+	background-color: $dark-grey;
 	border-radius: 3px 0px 0px 3px;
-	color: #606468;
+	color: $white;
 	display: block;
 	float: left;
 	height: 50px;
@@ -64,9 +78,9 @@ input {
 }
 
 #login form input[type="text"], input[type="password"] {
-	background-color: #3b4148;
+	background-color: $dark-grey;
 	border-radius: 0px 3px 3px 0px;
-	color: #606468;
+	color: $light-grey;
 	margin-bottom: 1em;
 	padding: 0 16px;
 	width: 230px;
@@ -76,8 +90,8 @@ input {
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	background-color: #ea4c88;
-	color: #eee;
+	background-color: $highlight;
+	color: $white;
 	font-weight: bold;
 	margin-bottom: 2em;
 	text-transform: uppercase;
@@ -85,7 +99,8 @@ input {
 }
 
 #login form input[type="submit"]:hover {
-	background-color: #d44179;
+	transition: 200ms ease-in-out;
+	background-color: $highlight-dark;
 }
 
 #login > p {
@@ -94,4 +109,15 @@ input {
 
 #login > p span {
 	padding-left: 5px;
+}
+
+#login h1 {
+	color: $white;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+
+.submit-link {
+	transition: 200ms esae-in-out;
 }
