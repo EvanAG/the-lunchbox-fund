@@ -1,9 +1,9 @@
-/* line 1, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 1, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 html, body {
   margin: 0;
   padding: 0; }
 
-/* line 3, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 3, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 *, *:after, *:before {
   margin: 0;
   padding: 0; }
@@ -28,7 +28,7 @@ html, body {
   width: device-width;
   scale: 1; }
 
-/* line 11, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 11, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 html {
       box-sizing: border-box;
       -moz-text-size-adjust: 100%;
@@ -36,30 +36,30 @@ html {
       -webkit-text-size-adjust: 100%;
       text-size-adjust: 100%; }
 
-/* line 19, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 19, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 *, *:before, *:after {
       box-sizing: inherit; }
 
-/* line 23, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 23, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 *, *:after, *:before {
   box-sizing: border-box; }
 
-/* line 24, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 24, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 body, html {
   padding: 0;
   margin: 0; }
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-/* line 27, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 27, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
 
-/* line 28, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 28, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .clearfix:after {
   clear: both; }
 
-/* line 30, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 30, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .grid {
   letter-spacing: -0.31em;
   text-rendering: optimizespeed;
@@ -72,32 +72,32 @@ body, html {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
 
-/* line 41, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 41, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
   -ms-flex-align: end;
       align-items: flex-end; }
 
-/* line 47, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 47, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
   -ms-flex-align: center;
       align-items: center; }
 
-/* line 53, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 53, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
   -ms-flex-align: stretch;
       align-items: stretch; }
 
-/* line 59, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 59, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .opera-only :-o-prefocus, .grid {
   word-spacing: -0.43em; }
 
-/* line 63, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 63, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit {
   letter-spacing: normal;
   text-rendering: auto;
@@ -106,457 +106,457 @@ body, html {
   display: inline-block;
   visibility: visible; }
 
-/* line 72, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 72, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .grid-bottom .unit {
   vertical-align: bottom; }
 
-/* line 76, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 76, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .grid-middle .unit {
   vertical-align: middle; }
 
-/* line 81, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 81, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit[class*="push-"], .unit[class*="pull-"] {
   position: relative; }
 
-/* line 85, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 85, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-hidden {
   display: none;
   visibility: hidden; }
 
-/* line 90, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 90, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-centered {
   margin: 0 auto; }
 
-/* line 94, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 94, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-1, .xs-1 {
   display: block;
   visibility: visible;
   width: 100%; }
 
-/* line 100, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 100, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-offset-xs-0 {
   margin-left: 0; }
 
-/* line 105, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 105, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-push-xs-0, .unit-pull-xs-0 {
   left: 0; }
 
-/* line 109, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 109, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-1-2, .xs-1-2 {
   width: 50%; }
 
-/* line 113, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 113, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-offset-xs-1-2 {
   margin-left: 50%; }
 
-/* line 117, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 117, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-push-xs-1-2 {
   left: 50%; }
 
-/* line 121, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 121, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-pull-xs-1-2 {
   left: -50%; }
 
-/* line 125, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 125, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-1-3, .xs-1-3 {
   width: 33.3333%; }
 
-/* line 129, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 129, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-offset-xs-1-3 {
   margin-left: 33.3333%; }
 
-/* line 133, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 133, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-push-xs-1-3 {
   left: 33.3333%; }
 
-/* line 137, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 137, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-pull-xs-1-3 {
   left: -33.3333%; }
 
-/* line 141, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 141, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-2-3, .xs-2-3 {
   width: 66.6667%; }
 
-/* line 145, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 145, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-offset-xs-2-3 {
   margin-left: 66.6667%; }
 
-/* line 149, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 149, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-push-xs-2-3 {
   left: 66.6667%; }
 
-/* line 153, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 153, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-pull-xs-2-3 {
   left: -66.6667%; }
 
-/* line 157, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 157, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-1-4, .xs-1-4 {
   width: 25%; }
 
-/* line 161, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 161, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-offset-xs-1-4 {
   margin-left: 25%; }
 
-/* line 165, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 165, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-push-xs-1-4 {
   left: 25%; }
 
-/* line 169, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 169, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-pull-xs-1-4 {
   left: -25%; }
 
-/* line 173, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 173, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-3-4, .xs-3-4 {
   width: 75%; }
 
-/* line 177, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 177, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-offset-xs-3-4 {
   margin-left: 75%; }
 
-/* line 181, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 181, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-push-xs-3-4 {
   left: 75%; }
 
-/* line 185, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 185, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-pull-xs-3-4 {
   left: -75%; }
 
-/* line 189, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 189, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-xs-1-2, .xs-1-2, .unit-xs-1-3, .xs-1-3, .unit-xs-2-3, .xs-2-3, .unit-xs-1-4, .xs-1-4, .unit-xs-3-4, .xs-3-4 {
   display: inline-block;
   visibility: visible; }
 
 @media only screen and (min-width: 25em) {
-  /* line 196, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 196, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 201, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 201, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-centered {
     margin: 0 auto; }
 
-  /* line 205, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 205, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-1, .s-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 211, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 211, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-s-0 {
     margin-left: 0; }
 
-  /* line 216, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 216, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-s-0, .unit-pull-s-0 {
     left: 0; }
 
-  /* line 220, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 220, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-1-2, .s-1-2 {
     width: 50%; }
 
-  /* line 224, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 224, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-s-1-2 {
     margin-left: 50%; }
 
-  /* line 228, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 228, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-s-1-2 {
     left: 50%; }
 
-  /* line 232, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 232, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-s-1-2 {
     left: -50%; }
 
-  /* line 236, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 236, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-1-3, .s-1-3 {
     width: 33.3333%; }
 
-  /* line 240, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 240, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-s-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 244, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 244, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-s-1-3 {
     left: 33.3333%; }
 
-  /* line 248, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 248, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-s-1-3 {
     left: -33.3333%; }
 
-  /* line 252, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 252, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-2-3, .s-2-3 {
     width: 66.6667%; }
 
-  /* line 256, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 256, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-s-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 260, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 260, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-s-2-3 {
     left: 66.6667%; }
 
-  /* line 264, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 264, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-s-2-3 {
     left: -66.6667%; }
 
-  /* line 268, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 268, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-1-4, .s-1-4 {
     width: 25%; }
 
-  /* line 272, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 272, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-s-1-4 {
     margin-left: 25%; }
 
-  /* line 276, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 276, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-s-1-4 {
     left: 25%; }
 
-  /* line 280, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 280, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-s-1-4 {
     left: -25%; }
 
-  /* line 284, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 284, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-3-4, .s-3-4 {
     width: 75%; }
 
-  /* line 288, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 288, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-s-3-4 {
     margin-left: 75%; }
 
-  /* line 292, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 292, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-s-3-4 {
     left: 75%; }
 
-  /* line 296, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 296, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-s-3-4 {
     left: -75%; }
 
-  /* line 300, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 300, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-s-1-2, .s-1-2, .unit-s-1-3, .s-1-3, .unit-s-2-3, .s-2-3, .unit-s-1-4, .s-1-4, .unit-s-3-4, .s-3-4 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 38em) {
-  /* line 309, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 309, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 314, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 314, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-centered {
     margin: 0 auto; }
 
-  /* line 318, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 318, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-1, .m-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 324, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 324, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-m-0 {
     margin-left: 0; }
 
-  /* line 329, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 329, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-m-0, .unit-pull-m-0 {
     left: 0; }
 
-  /* line 333, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 333, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-1-2, .m-1-2 {
     width: 50%; }
 
-  /* line 337, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 337, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-m-1-2 {
     margin-left: 50%; }
 
-  /* line 341, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 341, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-m-1-2 {
     left: 50%; }
 
-  /* line 345, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 345, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-m-1-2 {
     left: -50%; }
 
-  /* line 349, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 349, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-1-3, .m-1-3 {
     width: 33.3333%; }
 
-  /* line 353, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 353, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-m-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 357, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 357, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-m-1-3 {
     left: 33.3333%; }
 
-  /* line 361, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 361, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-m-1-3 {
     left: -33.3333%; }
 
-  /* line 365, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 365, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-2-3, .m-2-3 {
     width: 66.6667%; }
 
-  /* line 369, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 369, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-m-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 373, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 373, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-m-2-3 {
     left: 66.6667%; }
 
-  /* line 377, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 377, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-m-2-3 {
     left: -66.6667%; }
 
-  /* line 381, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 381, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-1-4, .m-1-4 {
     width: 25%; }
 
-  /* line 385, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 385, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-m-1-4 {
     margin-left: 25%; }
 
-  /* line 389, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 389, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-m-1-4 {
     left: 25%; }
 
-  /* line 393, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 393, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-m-1-4 {
     left: -25%; }
 
-  /* line 397, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 397, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-3-4, .m-3-4 {
     width: 75%; }
 
-  /* line 401, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 401, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-m-3-4 {
     margin-left: 75%; }
 
-  /* line 405, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 405, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-m-3-4 {
     left: 75%; }
 
-  /* line 409, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 409, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-m-3-4 {
     left: -75%; }
 
-  /* line 413, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 413, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-m-1-2, .m-1-2, .unit-m-1-3, .m-1-3, .unit-m-2-3, .m-2-3, .unit-m-1-4, .m-1-4, .unit-m-3-4, .m-3-4 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 422, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 422, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 427, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 427, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-centered {
     margin: 0 auto; }
 
-  /* line 431, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 431, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-1, .l-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 437, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 437, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-l-0 {
     margin-left: 0; }
 
-  /* line 442, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 442, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-l-0, .unit-pull-l-0 {
     left: 0; }
 
-  /* line 446, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 446, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-1-2, .l-1-2 {
     width: 50%; }
 
-  /* line 450, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 450, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-l-1-2 {
     margin-left: 50%; }
 
-  /* line 454, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 454, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-l-1-2 {
     left: 50%; }
 
-  /* line 458, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 458, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-l-1-2 {
     left: -50%; }
 
-  /* line 462, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 462, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-1-3, .l-1-3 {
     width: 33.3333%; }
 
-  /* line 466, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 466, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-l-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 470, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 470, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-l-1-3 {
     left: 33.3333%; }
 
-  /* line 474, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 474, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-l-1-3 {
     left: -33.3333%; }
 
-  /* line 478, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 478, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-2-3, .l-2-3 {
     width: 66.6667%; }
 
-  /* line 482, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 482, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-l-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 486, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 486, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-l-2-3 {
     left: 66.6667%; }
 
-  /* line 490, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 490, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-l-2-3 {
     left: -66.6667%; }
 
-  /* line 494, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 494, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-1-4, .l-1-4 {
     width: 25%; }
 
-  /* line 498, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 498, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-l-1-4 {
     margin-left: 25%; }
 
-  /* line 502, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 502, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-l-1-4 {
     left: 25%; }
 
-  /* line 506, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 506, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-l-1-4 {
     left: -25%; }
 
-  /* line 510, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 510, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-3-4, .l-3-4 {
     width: 75%; }
 
-  /* line 514, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 514, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-offset-l-3-4 {
     margin-left: 75%; }
 
-  /* line 518, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 518, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-push-l-3-4 {
     left: 75%; }
 
-  /* line 522, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 522, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-pull-l-3-4 {
     left: -75%; }
 
-  /* line 526, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 526, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .unit-l-1-2, .l-1-2, .unit-l-1-3, .l-1-3, .unit-l-2-3, .l-2-3, .unit-l-1-4, .l-1-4, .unit-l-3-4, .l-3-4 {
     display: inline-block;
     visibility: visible; }
  }
 
-/* line 533, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 533, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .unit-content-distribute {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -571,14 +571,14 @@ body, html {
   -webkit-align-items: center;
   align-items: center; }
 
-/* line 548, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 548, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .content-fill {
   -ms-flex-grow: 2;
   -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
       flex-grow: 2; }
 
-/* line 554, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 554, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .content-shrink {
   -ms-align-self: center;
   -webkit-align-self: center;
@@ -586,49 +586,49 @@ body, html {
           align-self: center; }
 
 @media only screen and (min-width: 38em) {
-  /* line 562, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 562, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .gutter-1 {
     padding-right: 2rem; }
 
-  /* line 566, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 566, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .gutter-2 {
     padding-right: 1rem;
     padding-left: 1rem; }
 
-  /* line 571, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+  /* line 571, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
   .gutter-3 {
     padding-left: 2rem; }
  }
 
-/* line 576, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 576, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .push-top {
   margin-top: 2rem; }
 
-/* line 580, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 580, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .push-top-2 {
   margin-top: 4rem; }
 
-/* line 584, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 584, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .push-bottom {
   margin-bottom: 2rem; }
 
-/* line 588, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 588, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .push-bottom-2 {
   margin-bottom: 2rem; }
 
-/* line 592, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 592, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .island {
   margin: 2rem auto; }
 
-/* line 596, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/grid */
+/* line 596, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/grid */
 .island-2 {
   margin: 0 auto; }
 
-/* line 1, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 1, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 html {
   font-size: 1em; }
 
-/* line 3, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 3, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 body {
   background-color: white;
   font-family: 'Lato', sans-serif;
@@ -636,104 +636,104 @@ body {
   line-height: 1.45;
   color: #333; }
 
-/* line 11, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 11, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 p {
   margin-bottom: 1.3em; }
 
-/* line 13, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 13, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 h1, h2, h3, h4, h5 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   font-family: 'Museo Slab', serif;
   line-height: 1.2; }
 
-/* line 20, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 20, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 h1, .one {
   margin-top: 0;
   font-size: 5.063em; }
 
-/* line 25, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 25, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 h2, .two {
   font-size: 3.375em; }
 
-/* line 27, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 27, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 h3, .three {
   font-size: 2.25em; }
 
-/* line 29, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 29, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 h4, .four {
   font-size: 1.5em; }
 
-/* line 31, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 31, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 h5, .five {
   font-size: 1em; }
 
-/* line 33, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 33, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .sub-title-1 {
   text-transform: uppercase; }
 
-/* line 37, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 37, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .sub-title-2 {
   margin-top: -0.3em; }
 
-/* line 41, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 41, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .p-large {
   font-family: 'Museo Slab', serif;
   font-size: 1.25em;
   margin-bottom: 0.3rem; }
 
-/* line 47, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 47, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .p-address {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center; }
 
-/* line 53, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 53, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .caption {
   text-transform: uppercase;
   font-size: 18px;
   margin-top: 2rem; }
 
-/* line 59, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 59, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 small, .font_small {
   font-size: 0.667em; }
 
-/* line 61, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 61, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .center-align {
   text-align: center; }
 
-/* line 65, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 65, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 li {
   list-style-type: none;
   padding-left: 1em;
   margin: 0.5rem 0; }
 
-/* line 71, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 71, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 a {
   text-decoration: none;
   text-transform: uppercase; }
 
-/* line 76, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 76, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .light {
   font-weight: 300; }
 
-/* line 80, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/typography */
+/* line 80, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .inline-link {
   text-decoration: none;
   color: #ff8000;
   border-bottom: 1px solid #ff8000;
   transition: all 200ms linear;
   -webkit-transition: all 200ms linear; }
-  /* line 7, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+  /* line 7, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
   .inline-link:hover {
     color: #980d43;
     border-bottom: 1px solid #980d43; }
 
-/* line 1, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 1, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 .dd-menu {
   display: none; }
 
-/* line 5, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 5, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 header {
   width: 100%;
   background-color: #fff;
@@ -744,11 +744,11 @@ header {
   z-index: 2;
   height: 55px; }
 
-/* line 16, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 16, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 .logo-link {
   display: block;
   height: 55px; }
-  /* line 19, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 19, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .logo-link a {
     text-indent: 100%;
     white-space: nowrap;
@@ -761,7 +761,7 @@ header {
     background-position: top left;
     background-size: contain; }
 
-/* line 30, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 30, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 .donate {
   position: absolute;
   right: 5px;
@@ -769,7 +769,7 @@ header {
   text-align: center;
   top: 0;
   bottom: 0; }
-  /* line 37, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 37, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .donate a {
     font-size: 0.95em;
     display: block;
@@ -787,12 +787,12 @@ header {
     cursor: pointer;
     outline: none;
     transition: all 0.3s; }
-    /* line 58, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+    /* line 58, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
     .donate a:hover {
       background-color: #ff8000;
       color: #fff; }
 
-/* line 42, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 42, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 .mm-menu {
   position: absolute;
   top: 55px;
@@ -800,7 +800,7 @@ header {
   right: 0;
   width: 100%; }
 
-/* line 50, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 50, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 .mm-item {
   margin: 0;
   padding: 0;
@@ -815,7 +815,7 @@ header {
   color: #ff8000;
   position: relative; }
 
-/* line 64, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 64, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 .mm-link {
   margin: 0;
   padding: 0;
@@ -824,44 +824,44 @@ header {
   height: 100%;
   width: 100%; }
 
-/* line 72, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 72, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 .mm-link:hover {
   color: #fff; }
 
-/* line 76, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 76, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 [class*=item]:hover {
   background: #ff8000;
   color: #fff; }
 
-/* line 81, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 81, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 [class*=item]:hover > .mm-link {
   background: #ff8000;
   color: #fff; }
 
-/* line 86, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+/* line 86, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
 [class*=item] {
   cursor: pointer;
   transition: 0.3s; }
 
 @media only screen and (min-width: 25em) {
-  /* line 92, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 92, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .mm-item {
     font-size: 14px;
     line-height: 3rem; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 100, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 100, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   header {
     height: auto; }
 
-  /* line 104, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 104, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .logo-link {
     width: 20%;
     position: absolute;
     top: 0;
     bottom: 0; }
-    /* line 109, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+    /* line 109, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
     .logo-link a {
       position: absolute;
       top: 0;
@@ -876,7 +876,7 @@ header {
       background-position: top center;
       background-size: contain; }
 
-  /* line 122, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 122, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .mm-menu {
     position: relative;
     top: 0;
@@ -886,13 +886,13 @@ header {
     text-align: center;
     font-size: 0; }
 
-  /* line 132, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 132, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .mm-item {
     display: inline-block;
     line-height: 4rem;
     font-size: 0.9rem; }
 
-  /* line 138, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 138, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .dd-menu {
     display: block;
     position: absolute;
@@ -902,26 +902,26 @@ header {
     top: -13rem;
     transition: 0.35s ease-in-out; }
 
-  /* line 149, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 149, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .mm-item:hover > .dd-menu, .mm-item:focus > .dd-menu {
     top: 4rem; }
 
-  /* line 153, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 153, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .dd-item {
     display: block;
     background: orange;
     line-height: 3;
     color: white; }
 
-  /* line 160, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 160, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .dd-item:last-child {
     border-radius: 0px 0px 6px 6px; }
 
-  /* line 164, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+  /* line 164, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
   .donate {
     padding: 10px 0;
     width: 20%; }
-    /* line 167, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/header */
+    /* line 167, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/header */
     .donate a {
       font-size: 0.95em;
       display: block;
@@ -940,30 +940,30 @@ header {
       outline: none;
       transition: all 0.3s;
       width: 50%; }
-      /* line 58, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+      /* line 58, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
       .donate a:hover {
         background-color: #ff8000;
         color: #fff; }
  }
 
-/* line 1, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/footer */
+/* line 1, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
 footer {
   width: 100%;
   background: #434244;
   color: white;
   padding: 4rem;
   text-align: center; }
-  /* line 7, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/footer */
+  /* line 7, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
   footer .quicklinks {
     list-style-type: none; }
 
 @media only screen and (min-width: 38em) {
-  /* line 14, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/footer */
+  /* line 14, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
   footer {
     text-align: left; }
  }
 
-/* line 20, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/footer */
+/* line 20, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
 .menu-buttons {
   font-size: 0.95em;
   display: block;
@@ -981,48 +981,60 @@ footer {
   cursor: pointer;
   outline: none;
   transition: all 0.3s; }
-  /* line 58, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+  /* line 58, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
   .menu-buttons:hover {
     background-color: #fff;
     color: #fff; }
 
-/* line 24, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/footer */
+/* line 24, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
 .bottom-nav-title {
   text-transform: uppercase;
   font-size: 16px; }
 
-/* line 1, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 29, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
+.social-list {
+  text-align: center;
+  font-size: 0;
+  margin: 50px auto; }
+
+/* line 35, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
+.social-list li {
+  display: block;
+  margin: 0 auto;
+  position: relative; }
+
+/* line 1, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .banner {
   width: 100%;
   text-align: center;
   padding: 8rem 1rem;
   display: block; }
-  /* line 6, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 6, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .banner h1, .banner p {
     margin: 0;
     padding: 0;
     color: #000; }
 
-/* line 12, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 12, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .banner-mini {
   padding: 2rem 1rem;
   position: relative; }
-  /* line 15, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 15, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .banner-mini p {
     margin: 0;
     padding: 0; }
 
-/* line 20, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 20, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .link-banner-mini {
   color: #fff;
   padding: 2rem 1rem;
   position: relative; }
-  /* line 24, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 24, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .link-banner-mini p {
     margin: 0;
     padding: 0; }
 
-/* line 29, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 29, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .link-banner-mini:after {
   content: '';
   color: #fff;
@@ -1034,42 +1046,42 @@ footer {
   background-color: rgba(0, 0, 0, 0.8);
   transition: all 200ms linear; }
 
-/* line 41, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 41, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .link-banner-mini:hover:after {
   background-color: rgba(0, 0, 0, 0); }
 
 @media only screen and (min-width: 38em) {
-  /* line 46, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 46, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .banner {
     padding: 8rem; }
 
-  /* line 50, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 50, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .banner-mini, .link-banner-mini {
     padding: 3rem 1rem; }
  }
 
-/* line 55, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 55, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .class-1 {
   background-image: url(http://placehold.it/1000x600);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
 
-/* line 59, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 59, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .class-2 {
   background-image: url(http://placehold.it/1000x200);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
 
-/* line 63, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 63, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .class-3 {
   background-image: url(http://placehold.it/1000x800/4cc691/4cc691);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
 
-/* line 68, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 68, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .african-child {
   background-image: url(../../images/african-baby.jpg);
   background-size: cover;
@@ -1077,77 +1089,110 @@ footer {
   background-repeat: no-repeat;
   padding: 14rem 0
   /* this padding modifies the height of the banner */ }
-  /* line 71, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 71, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .african-child h1 {
     color: #fff; }
 
-/* line 76, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 76, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .single-child-classroom {
   background-image: url(../../images/single-child-classroom.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   padding: 14rem 0; }
-  /* line 79, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 79, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .single-child-classroom h1 {
     color: #fff; }
 
-/* line 84, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 84, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .intro-banner {
   background-image: url(../../images/intro-banner.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   padding: 14rem 0; }
-  /* line 87, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 87, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .intro-banner h1 {
     color: #fff; }
 
-/* line 92, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 92, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .sunrise-kenya {
   background-image: url(../../images/sunrise-kenya.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   padding: 38.5rem 0; }
-  /* line 95, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 95, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .sunrise-kenya h1 {
     color: #fff; }
 
-/* line 100, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+/* line 100, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .children-classroom {
   background-image: url(../../images/children-classroom.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   padding: 14rem 0; }
-  /* line 103, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/banners */
+  /* line 103, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
   .children-classroom h1 {
     color: #fff; }
 
-/* line 3, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 108, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
+.globe {
+  background-image: url(../../images/globe.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 14rem 0; }
+  /* line 111, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
+  .globe h1 {
+    color: #fff; }
+
+/* line 116, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
+.books {
+  background-image: url(../../images/books.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 14rem 0; }
+  /* line 119, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
+  .books h1 {
+    color: #fff; }
+
+/* line 124, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
+.skyscraper {
+  background-image: url(../../images/skyscraper.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 14rem 0; }
+  /* line 127, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
+  .skyscraper h1 {
+    color: #fff; }
+
+/* line 3, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 main {
   padding-top: 6.35rem; }
 
-/* line 7, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 7, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .flex-img {
   display: block;
   width: 100%;
   margin: 0 auto; }
 
-/* line 13, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 13, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .flex-vid {
   display: block;
   width: 60%;
   margin: 0 auto; }
 
 @media only screen and (min-width: 38em) {
-  /* line 21, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+  /* line 21, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
   main {
     padding-top: 55px; }
  }
 
-/* line 26, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 26, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .button {
   font-size: 0.95em;
   display: block;
@@ -1166,12 +1211,12 @@ main {
   outline: none;
   transition: all 0.3s;
   max-width: 10rem; }
-  /* line 58, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+  /* line 58, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
   .button:hover {
     background-color: #fff;
     color: #fff; }
 
-/* line 31, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 31, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .reverse-button {
   font-size: 0.95em;
   display: block;
@@ -1190,12 +1235,12 @@ main {
   outline: none;
   transition: all 0.3s;
   max-width: 10rem; }
-  /* line 83, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+  /* line 83, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
   .reverse-button:hover {
     background-color: #fff;
     color: #303030; }
 
-/* line 36, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 36, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .single-button {
   font-size: 0.95em;
   display: block;
@@ -1214,15 +1259,15 @@ main {
   outline: none;
   transition: all 0.3s;
   max-width: 10rem; }
-  /* line 58, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+  /* line 58, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
   .single-button:hover {
     background-color: #303030;
     color: #fff; }
 
-/* line 41, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 41, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .content {
   padding: 3rem 5%; }
-  /* line 43, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+  /* line 43, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
   .content .button {
     font-size: 0.95em;
     display: block;
@@ -1241,41 +1286,41 @@ main {
     outline: none;
     transition: all 0.3s;
     max-width: 20rem; }
-    /* line 58, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/mixins */
+    /* line 58, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/mixins */
     .content .button:hover {
       background-color: #303030;
       color: #fff; }
 
-/* line 49, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 49, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .figure-img {
   width: 60%;
   margin-bottom: -2rem; }
 
-/* line 54, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 54, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .figure-img:hover {
   opacity: 0.6;
   transition: opacity 0.2s ease-in-out; }
 
-/* line 59, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 59, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .larger-icon {
   width: 85%; }
 
 @media only screen and (max-width: 60em) {
-  /* line 64, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+  /* line 64, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
   .content {
     padding: 5rem 20%; }
 
-  /* line 68, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+  /* line 68, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
   .figure-img {
     width: 90%; }
  }
 
-/* line 73, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 73, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .media {
   width: 100%;
   display: block; }
 
-/* line 78, /Users/hasanyavuz91/Desktop/The Lunchbox Fund/the-lunchbox-fund/scss/components/main */
+/* line 78, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 hr {
   display: block;
   border: 0;

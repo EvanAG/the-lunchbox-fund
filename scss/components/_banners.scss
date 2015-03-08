@@ -104,3 +104,27 @@
         color: $white;
     }
 }
+
+.globe {
+    @include bgcover(url(../../images/globe.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.books {
+    @include bgcover(url(../../images/books.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.skyscraper {
+    @include bgcover(url(../../images/skyscraper.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}
