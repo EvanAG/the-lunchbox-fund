@@ -34,13 +34,16 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.8);
-    transition: all 200ms linear;
+    transition: all 300ms linear;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(137,210,255,0) 0%, rgba(0,0,0,0.52) 100%); 
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(137,210,255,0)), color-stop(100%,rgba(0,0,0,0.52))); 
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(137,210,255,0) 0%,rgba(0,0,0,0.52) 100%); 
+    background: -o-radial-gradient(center, ellipse cover, rgba(137,210,255,0) 0%,rgba(0,0,0,0.52) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(137,210,255,0) 0%,rgba(0,0,0,0.52) 100%); 
+    background: radial-gradient(ellipse at center, rgba(137,210,255,0) 0%,rgba(0,0,0,0.52) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089d2ff', endColorstr='#85000000',GradientType=1 ); 
 }
 
-.link-banner-mini:hover:after {
-    background-color: rgba(0,0,0,0.0);
-}
 
 @media only screen and (min-width: 38em) {
     .banner {
@@ -50,6 +53,16 @@
     .banner-mini, .link-banner-mini {
         padding: 3rem 1rem;
     }
+
+    .link-banner-mini:after {
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .link-banner-mini:hover:after {
+        transition: all 300ms linear;
+        background-color: rgba(0,0,0,0.0);
+    }
+
 }
 
 .class-1 {
@@ -91,7 +104,7 @@
     
 .sunrise-kenya {
     @include bgcover(url(../../images/sunrise-kenya.jpg));
-    padding: 38.5rem 0;
+    padding: 29.5rem 0;
     h1 {
         color: $white;
     }
@@ -153,6 +166,18 @@
     }
 }
 
+.blog-main {
+    @include bgcover(url(../../images/blog-main.jpg));
+    padding: 14rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+
+
+/* ARTICLES AND BLOGS ------------ */
+
 .article-vogue {
     @include bgcover(url(../../images/article-vogue.jpg));
     padding: 5rem 0;
@@ -179,6 +204,14 @@
 
 .article-nyc {
     @include bgcover(url(../../images/article-nyc.jpg));
+    padding: 5rem 0;
+    h1 {
+        color: $white;
+    }
+}
+
+.article-modelina {
+    @include bgcover(url(../../images/article-modelina.jpg));
     padding: 5rem 0;
     h1 {
         color: $white;

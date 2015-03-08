@@ -79,4 +79,5 @@ a {
 
 .inline-link {
     @include linkreset($highlight, #980d43);
+    text-transform: none;
 }
