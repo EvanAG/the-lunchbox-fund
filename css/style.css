@@ -1060,6 +1060,23 @@ footer {
   color: #ccc;
   font-size: 0.75em; }
 
+/* line 68, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
+.footer-form {
+  background-color: #303030;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: #ccc; }
+
+/* line 76, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
+.join-footer {
+  -webkit-align-content: left;
+      -ms-flex-line-pack: left;
+          align-content: left; }
+
+/* line 80, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/footer */
+.bucket {
+  padding: 1rem; }
+
 /* line 1, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/banners */
 .banner {
   width: 100%;

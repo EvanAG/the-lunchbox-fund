@@ -30,13 +30,13 @@ footer {
 .social {
     width: 100%;
     background-color: $dark-grey;
-    padding-top:4rem;
+    padding-top: 4rem;
 }
 
 .social-list {
   text-align: center;
   font-size: 0;
-  margin:0 auto;
+  margin: 0 auto;
   width: 30%;
   background-color: $dark-grey;
 }
@@ -64,4 +64,21 @@ footer {
     color: $light-grey;
     font-size: 0.75em;
 }
+
+.footer-form {
+  background-color: $dark;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: $light-grey;
+}
+
+
+.join-footer {
+  align-content: left;
+}
+
+.bucket {
+  padding: 1rem;
+}
+
 
