@@ -1,0 +1,24 @@
+# PEOPLE
+
+Designer: Evan Grice
+E-Mail: hey@evandgrice.ca
+Location: Ottawa, Canada
+Website: http://evanag.github.io/the-lunchbox-fund/
+GutHub: http://evanag.github.io/the-lunchbox-fund/
+Twitter: https://twitter.com/thelunchboxfund
+Facebook: https://www.facebook.com/thelunchboxfund?v=wall
+Youtube: https://www.youtube.com/user/TheLunchboxFund
+
+# THANKS
+
+To all creative common image owners whose images were used.
+
+# TOOLS
+
+Sublime Text
+Brackets
+GitHub
+Photoshop
+Illustrator
+Hover.com
+PrePros
