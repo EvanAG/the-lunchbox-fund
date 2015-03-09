@@ -83,7 +83,7 @@ main {
     border: 0;
     height: 1px;
     background-color: $dark;
-    margin: 1rem 16rem;
+    margin: 0 6%;
 }
 
 .hr-2 {
@@ -100,9 +100,10 @@ main {
 }
 
 .corp-partners {
-    width: 200px;
+    text-align: center;
     display: inline-block;
     margin: 0 auto;
+    width: 60%;
 }
 
 

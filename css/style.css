@@ -1574,7 +1574,7 @@ main {
   border: 0;
   height: 1px;
   background-color: #303030;
-  margin: 1rem 16rem; }
+  margin: 0 6%; }
 
 /* line 89, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .hr-2 {
@@ -1591,9 +1591,10 @@ main {
 
 /* line 102, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/main */
 .corp-partners {
-  width: 200px;
+  text-align: center;
   display: inline-block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 60%; }
 
 /* CSS Document */
 /* ---------- FONTAWESOME ---------- */
