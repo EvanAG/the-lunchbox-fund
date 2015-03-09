@@ -50,7 +50,7 @@ main {
 }
 
 .figure-img {
-    width: 60%;
+    width: 45%;
     margin-bottom: -2rem;
 }
 
@@ -78,12 +78,21 @@ main {
     display: block;
 }
 
-hr {
+.hr-1 {
     display: block;
     border: 0;
     height: 1px;
     background-color: $dark;
     margin: 1rem 16rem;
+}
+
+.hr-2 {
+    display: block;
+    border: 0;
+    height: 1px;
+    background-color: $white;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 .gradient-icons {
@@ -92,7 +101,8 @@ hr {
 
 .corp-partners {
     width: 200px;
-    display: inline;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 

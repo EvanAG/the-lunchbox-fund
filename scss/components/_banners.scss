@@ -18,7 +18,16 @@
 }
 
 .link-banner-mini {
-    color: #fff;
+    color: $white;
+    padding: 2rem 1rem;
+    position: relative;
+    p {
+        @include zero;
+    }
+}
+
+.link-banner-mini-2 {
+    color: $white;
     padding: 2rem 1rem;
     position: relative;
     p {
@@ -28,7 +37,7 @@
 
 .link-banner-mini:after {
     content: '';
-    color: #fff;
+    color: $white;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -44,6 +53,15 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089d2ff', endColorstr='#85000000',GradientType=1 ); 
 }
 
+.link-banner-mini-2:after {
+    content: '';
+    color: $white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 @media only screen and (min-width: 38em) {
     .banner {
