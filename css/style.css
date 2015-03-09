@@ -903,7 +903,7 @@ header {
       overflow: hidden;
       display: block;
       width: 100%;
-      background-image: url(../../assets/lunchbox-logo-symbol.svg);
+      background-image: url(http://evanag.github.io/the-lunchbox-fund/assets/lunchbox-logo-symbol.svg);
       background-repeat: no-repeat;
       background-position: top center;
       background-size: contain; }
