@@ -646,13 +646,13 @@ p {
 h1, h2, h3, h4, h5 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
-  font-family: 'Museo Slab', serif;
+  font-family: 'Roboto Slab', serif;
   line-height: 1.2; }
 
 /* line 20, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 h6 {
   font-weight: inherit;
-  font-family: 'Museo Slab', serif;
+  font-family: 'Roboto Slab', serif;
   line-height: 1.2; }
 
 /* line 26, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
@@ -690,7 +690,7 @@ h6, .six {
 
 /* line 49, /Users/evangrice/Documents/Graphic Design Semester 6/Web Development/the-lunchbox-fund/scss/components/typography */
 .p-large {
-  font-family: 'Museo Slab', serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.25em;
   margin-bottom: 0.3rem; }
 
